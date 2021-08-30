@@ -1,4 +1,3 @@
-const { restart } = require('nodemon');
 const knex = require('../../conexao');
 
 const obterProduto = async (req, res) => {
